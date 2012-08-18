@@ -14,6 +14,6 @@ A view of the whole network
 ===========================
 ![1 Untrimmed Network](https://github.com/coreylynch/nba-finals-tweets/raw/master/dark2.png)
 
-Two different views of the giant component. Node sizes are scaled to pagerank values
+Two different views of the graph restricted to just the giant component. Node sizes are scaled to pagerank values
 ![1 Untrimmed Network](https://github.com/coreylynch/nba-finals-tweets/raw/master/giant_component2.png)
 ![1 Untrimmed Network](https://github.com/coreylynch/nba-finals-tweets/raw/master/giant_component3.png)
