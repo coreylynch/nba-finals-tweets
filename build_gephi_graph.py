@@ -27,6 +27,5 @@ with open('nba_graph.csv','wb') as f:
 			if from_node[-1] == ' ':
 				from_node = from_node[:-1]
 			if to_node != '' and from_node != '':
-#				network.append((from_node.encode('utf8'),to_node.encode('utf8')))
 				f.write('"'+from_node.encode('utf8')+'","'+to_node.encode('utf8')+'"')
 				f.write('\n')
