@@ -1,11 +1,6 @@
 nba-finals-tweets
 =================
 
-<<<<<<< HEAD
-TODO: do a git pull
-
-Visualizing networks of people who tweeted during the 2012 NBA finals in Gephi 
-=======
 Visualizing a network of people who tweeted during the 2012 NBA finals in Gephi. 
 
 Nodes are people. Edges between nodes indicate that person A retweeted person B.
@@ -17,9 +12,7 @@ Statistics
 
 A view of the whole network
 ===========================
-![1 Untrimmed Network](https://github.com/coreylynch/nba-finals-tweets/raw/master/dark2.png)
+![1 Untrimmed Network](https://github.com/coreylynch/nba-finals-tweets/raw/master/full_graph.pdf)
 
-Two different views of the graph restricted to just the giant component. Node sizes are scaled to pagerank values
-![1 Untrimmed Network](https://github.com/coreylynch/nba-finals-tweets/raw/master/giant_component2.png)
-![1 Untrimmed Network](https://github.com/coreylynch/nba-finals-tweets/raw/master/giant_component3.png)
->>>>>>> bbbad7b3089acd406a672338fc8d08d657c8b29c
+The graph restricted to just the giant component. Node sizes are scaled to pagerank values.
+![1 Giant Component](https://github.com/coreylynch/nba-finals-tweets/raw/master/giant_component.pdf)
