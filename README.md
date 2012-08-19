@@ -12,7 +12,7 @@ Statistics
 
 A view of the whole network
 ===========================
-![1 Untrimmed Network](https://github.com/coreylynch/nba-finals-tweets/raw/master/full_graph.pdf)
+![1 Untrimmed Network](https://github.com/coreylynch/nba-finals-tweets/raw/master/full_graph.png)
 
 The graph restricted to just the giant component. Node sizes are scaled to pagerank values.
-![1 Giant Component](https://github.com/coreylynch/nba-finals-tweets/raw/master/giant_component.pdf)
+![1 Giant Component](https://github.com/coreylynch/nba-finals-tweets/raw/master/giant_component.png)
