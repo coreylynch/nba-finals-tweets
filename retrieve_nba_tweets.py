@@ -25,7 +25,7 @@ db=c['nba_tweets']
 with open('nba_queries.txt') as f:
 	queries = [i.strip() for i in f.readlines()]
 	
-with tweetstream.SampleStream('coreylynch','caligula9') as stream:
+with tweetstream.SampleStream('username','pass') as stream:
 	for tweet in stream:
 		if 'text' in tweet.keys() and len(tweet['text'])>0:
 			if True in [i.lower() in queries for i in tweet['text'].split()]:
